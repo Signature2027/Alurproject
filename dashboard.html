@@ -1,0 +1,7 @@
+<!doctype html><html lang="bn"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sotota Education — Dashboard</title><link rel="stylesheet" href="css/style.css"></head>
+<body><div class="layout"><aside><h2>সততা শিক্ষা</h2><a class="active" href="dashboard.html">🏠 Dashboard</a><a href="question-pattern.html">🧩 Question Pattern</a><a href="question-bank.html">📚 Question Bank</a><a href="question-builder.html">📝 Question Builder</a><button class="logout" onclick="logout()">Logout</button></aside>
+<main><header><div><h1>Dashboard</h1><p class="muted">Question management system</p></div></header>
+<div class="grid"><div class="stat"><b id="patterns">0</b><span>Patterns</span></div><div class="stat"><b id="questions">0</b><span>Questions</span></div><div class="stat"><b>5</b><span>Classes</span></div><div class="stat"><b>Free</b><span>Subscription</span></div></div>
+<div class="card"><h2>দ্রুত কাজ</h2><div class="actions"><a class="btn" href="question-pattern.html">+ Pattern তৈরি</a><a class="btn" href="question-bank.html">+ Question যোগ</a><a class="btn" href="question-builder.html">Question Paper তৈরি</a></div></div>
+</main></div><script src="js/app.js"></script><script>requireLogin();refreshStats();</script></body></html>
